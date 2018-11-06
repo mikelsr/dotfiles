@@ -1,0 +1,15 @@
+# Console aliases
+# vim: set syntax=zsh:
+
+alias autoremove="pacman -R \$(pacman -Qdtq)"
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+alias gitkey='clip $( cat ~/.gitkey | base64 --decode ) && echo "Key copied to clipboard."'
+alias public-ip="curl -s checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'"
+alias py="python3"
+alias rb="loadenv rainbow-stream && rainbowstream"
+alias sniff="sudo ngrep -d 'wlp59s0' -t '^(GET|POST) ' 'tcp and port 80'"
+alias sudo="sudo "
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
+alias weather='$GOPATH/bin/weather -l \"Bilbao, Spain\" -u si'
+alias wifi="sudo nmtui"
+

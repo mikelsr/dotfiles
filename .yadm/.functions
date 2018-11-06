@@ -1,0 +1,22 @@
+# Console functions
+# vim: set syntax=zsh:
+
+function lsc {
+	/usr/bin/ls $@ | lolcat
+}
+
+# copy $1 to clipboard
+function clip {
+	if [ -z "$1" ]; then
+		xclip -i -selection clipboard <&0
+	else	
+		printf $1 | xclip -i -selection clipboard
+
+	fi
+}
+
+# load a virtualenv
+function loadenv {
+	. ~/.venvs/$1/bin/activate
+}
+
