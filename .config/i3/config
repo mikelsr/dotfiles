@@ -207,7 +207,7 @@ bindsym $mod+p exec ~/Code/github.com/vivien/i3blocks-contrib/shutdown_menu/shut
 bindsym Print exec gnome-screenshot -i
 
 # lock screen
-bindsym $mod+l exec mantablockscreen
+bindsym $mod+l exec mantablockscreen -cc
 
 exec compton -f
 gaps inner 6
