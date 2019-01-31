@@ -34,7 +34,7 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
 	source /etc/profile.d/vte.sh
 fi
 
-setsid wal -i /home/mikel/Pictures/Wallpapers/annie-spratt-419268-unsplash.jpg -q
+setsid wal -i /home/mikel/.wallpaper -q
 
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
 	exec tmux
