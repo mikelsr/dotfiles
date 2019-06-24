@@ -195,7 +195,8 @@ bar {
 #exec_always xrandr --dpi 220
 
 # load wallpaper
-exec_always feh --bg-scale ~/.wallpaper
+#exec_always feh --bg-scale ~/.wallpaper
+exec --no-startup-id exec bash $HOME/.fehbg
 
 # rxvt
 exec xrdb -merge ~/.Xresources
@@ -225,11 +226,16 @@ bindsym $mod+p exec ~/Code/github.com/vivien/i3blocks-contrib/shutdown_menu/shut
 bindsym Print exec gnome-screenshot -i
 
 # lock screen
-bindsym $mod+l exec mantablockscreen -cc
+bindsym $mod+l exec mantablockscreen
 
 exec compton -f
-gaps inner 6
-gaps outer 0
+gaps inner 8
+gaps outer 8
 
 exec --no-startup-id nm-applet
+
+# hide window borders
+for_window [class=".*"] border pixel 0
+hide_edge_borders both
+
 

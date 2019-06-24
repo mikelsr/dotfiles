@@ -136,7 +136,7 @@ XTerm*color15 : #EEEEEC
 
 URxvt.transparent:   true
 URxvt.shading:       15
-urxvt*depth: 		32
+urxvt*depth:         32
 urxvt*background:    rgba:0020/0200/0200/c800
 
 URxvt.inputMethod: ibus
@@ -160,4 +160,3 @@ URxvt.matcher.button: 1
 URxvt.keysym.M-Escape:perl:keyboard-select:activate
 URxvt.keysym.Control-Shift-V: perl:pasta:paste
 URxvt.clipboard.autocopy: true
-
