@@ -2,7 +2,7 @@
 export ZSH=/home/mikel/.oh-my-zsh
 
 ## Oh-my-zsh settings
-ZSH_THEME="classyTouch"
+ZSH_THEME="simple"
 CASE_SENSITIVE="true"
 UPDATE_ZSH_DAYS=14
 plugins=(
