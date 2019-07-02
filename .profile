@@ -4,6 +4,6 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 export XDG_CURRENT_DESKTOP=GNOME
 export WAYLAND_DISPLAY=alacritty
 export GOPATH=$HOME/.go
-export GO111MODULE=off
+export GO111MODULE=on
 export PATH=$PATH:$GOROOT:$GOPATH/bin
 export TZ=Europe/Madrid
