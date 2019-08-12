@@ -8,6 +8,7 @@ alias gittree="git log --graph --abbrev-commit --decorate --format=format:'%C(bo
 alias public-ip="curl -s checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'"
 alias py="python3"
 alias rb="loadenv rainbow-stream && rainbowstream"
+alias rm="rm -I"
 alias sl="sl -e"
 alias sniff="sudo ngrep -d 'wlp59s0' -t '^(GET|POST) ' 'tcp and port 80'"
 alias sudo="sudo "
