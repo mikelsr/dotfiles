@@ -5,6 +5,7 @@ alias autoremove="pacman -R \$(pacman -Qdtq)"
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias gitkey='clip $( cat ~/.gitkey | base64 --decode ) && echo "Key copied to clipboard."'
 alias gittree="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+alias please="sudo "
 alias public-ip="curl -s checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'"
 alias py="python3"
 alias rb="loadenv rainbow-stream && rainbowstream"
