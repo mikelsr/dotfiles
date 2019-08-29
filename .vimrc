@@ -18,7 +18,7 @@ runtime! archlinux.vim
 "let skip_defaults_vim=1
 
 " load plugins
-execute pathogen#infect('/usr/share/vim/vim81/bundle/{}')
+execute pathogen#infect('/usr/share/vim/vimfiles/bundle/{}')
 
 " theme
 colorscheme zireael
