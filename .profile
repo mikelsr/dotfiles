@@ -5,5 +5,6 @@ export XDG_CURRENT_DESKTOP=GNOME
 export WAYLAND_DISPLAY=alacritty
 export GOPATH=$HOME/.go
 export GO111MODULE=on
-export PATH=$PATH:$GOROOT:$GOPATH/bin
+export GOPROXY=direct
+export PATH=$PATH:$GOROOT:$GOPATH/bin:$HOME/.cargo/bin
 export TZ=Europe/Madrid
