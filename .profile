@@ -1,4 +1,4 @@
-XDG_CURRENT_DESKTOP=GNOME
+export BROWSER=/usr/bin/firefox
 export EDITOR=/usr/bin/vim
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 export XDG_CURRENT_DESKTOP=GNOME
